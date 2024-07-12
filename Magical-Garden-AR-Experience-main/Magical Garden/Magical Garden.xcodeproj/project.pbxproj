@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A53737CC2C34130000DFD317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53737CB2C34130000DFD317 /* AppDelegate.swift */; };
+		A53737CE2C34130000DFD317 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53737CD2C34130000DFD317 /* ContentView.swift */; };
+		A53737D02C34130200DFD317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53737CF2C34130200DFD317 /* Assets.xcassets */; };
+		A53737D32C34130200DFD317 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53737D22C34130200DFD317 /* Preview Assets.xcassets */; };
+		A53737E32C34366F00DFD317 /* Plant_02_Bloom.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A53737E02C34366F00DFD317 /* Plant_02_Bloom.usdz */; };
+		A53737E42C34366F00DFD317 /* Plant_03_Bloom.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A53737E12C34366F00DFD317 /* Plant_03_Bloom.usdz */; };
+		A53737E52C34366F00DFD317 /* Plant_01_Bloom.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A53737E22C34366F00DFD317 /* Plant_01_Bloom.usdz */; };
+		A53737E92C34367A00DFD317 /* Plant_02_Growth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A53737E62C34367A00DFD317 /* Plant_02_Growth.usdz */; };
+		A53737EA2C34367A00DFD317 /* Plant_03_Growth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A53737E72C34367A00DFD317 /* Plant_03_Growth.usdz */; };
+		A53737EB2C34367A00DFD317 /* Plant_01_Growth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A53737E82C34367A00DFD317 /* Plant_01_Growth.usdz */; };
+		A53737F12C35A62400DFD317 /* ARModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53737F02C35A62400DFD317 /* ARModel.swift */; };
+		A53737F42C35A67900DFD317 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53737F32C35A67900DFD317 /* ViewModel.swift */; };
+		A53738352C380D9500DFD317 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53738342C380D9500DFD317 /* ARViewContainer.swift */; };
+		A53738372C380DE000DFD317 /* ARView_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53738362C380DE000DFD317 /* ARView_Extension.swift */; };
+		A54EDA2D2C3D59B9005E6857 /* ModelState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EDA2C2C3D59B9005E6857 /* ModelState.swift */; };
+		A54EDA342C403BA2005E6857 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EDA332C403BA2005E6857 /* OnBoardingView.swift */; };
+		A54EDA362C403BC1005E6857 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54EDA352C403BC1005E6857 /* PageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A53737C82C34130000DFD317 /* Magical Garden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magical Garden.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53737CB2C34130000DFD317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A53737CD2C34130000DFD317 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A53737CF2C34130200DFD317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A53737D22C34130200DFD317 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A53737E02C34366F00DFD317 /* Plant_02_Bloom.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Plant_02_Bloom.usdz; sourceTree = "<group>"; };
+		A53737E12C34366F00DFD317 /* Plant_03_Bloom.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Plant_03_Bloom.usdz; sourceTree = "<group>"; };
+		A53737E22C34366F00DFD317 /* Plant_01_Bloom.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Plant_01_Bloom.usdz; sourceTree = "<group>"; };
+		A53737E62C34367A00DFD317 /* Plant_02_Growth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Plant_02_Growth.usdz; sourceTree = "<group>"; };
+		A53737E72C34367A00DFD317 /* Plant_03_Growth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Plant_03_Growth.usdz; sourceTree = "<group>"; };
+		A53737E82C34367A00DFD317 /* Plant_01_Growth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Plant_01_Growth.usdz; sourceTree = "<group>"; };
+		A53737F02C35A62400DFD317 /* ARModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARModel.swift; sourceTree = "<group>"; };
+		A53737F32C35A67900DFD317 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A53738342C380D9500DFD317 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		A53738362C380DE000DFD317 /* ARView_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView_Extension.swift; sourceTree = "<group>"; };
+		A54EDA2C2C3D59B9005E6857 /* ModelState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelState.swift; sourceTree = "<group>"; };
+		A54EDA332C403BA2005E6857 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		A54EDA352C403BC1005E6857 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A53737C52C34130000DFD317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A53737BF2C34130000DFD317 = {
+			isa = PBXGroup;
+			children = (
+				A53737CA2C34130000DFD317 /* Magical Garden */,
+				A53737C92C34130000DFD317 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A53737C92C34130000DFD317 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A53737C82C34130000DFD317 /* Magical Garden.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A53737CA2C34130000DFD317 /* Magical Garden */ = {
+			isa = PBXGroup;
+			children = (
+				A54EDA322C403B83005E6857 /* OnBoarding */,
+				A53737EF2C35A61A00DFD317 /* Model */,
+				A53737F52C35A69800DFD317 /* View */,
+				A53737F22C35A66C00DFD317 /* ViewModel */,
+				A53737CB2C34130000DFD317 /* AppDelegate.swift */,
+				A53737CF2C34130200DFD317 /* Assets.xcassets */,
+				A53737DD2C34363200DFD317 /* Plants */,
+				A53737D12C34130200DFD317 /* Preview Content */,
+			);
+			path = "Magical Garden";
+			sourceTree = "<group>";
+		};
+		A53737D12C34130200DFD317 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A53737D22C34130200DFD317 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A53737DD2C34363200DFD317 /* Plants */ = {
+			isa = PBXGroup;
+			children = (
+				A53737DF2C34365700DFD317 /* Growth */,
+				A53737DE2C34363D00DFD317 /* Bloom */,
+			);
+			path = Plants;
+			sourceTree = "<group>";
+		};
+		A53737DE2C34363D00DFD317 /* Bloom */ = {
+			isa = PBXGroup;
+			children = (
+				A53737E22C34366F00DFD317 /* Plant_01_Bloom.usdz */,
+				A53737E02C34366F00DFD317 /* Plant_02_Bloom.usdz */,
+				A53737E12C34366F00DFD317 /* Plant_03_Bloom.usdz */,
+			);
+			path = Bloom;
+			sourceTree = "<group>";
+		};
+		A53737DF2C34365700DFD317 /* Growth */ = {
+			isa = PBXGroup;
+			children = (
+				A53737E82C34367A00DFD317 /* Plant_01_Growth.usdz */,
+				A53737E62C34367A00DFD317 /* Plant_02_Growth.usdz */,
+				A53737E72C34367A00DFD317 /* Plant_03_Growth.usdz */,
+			);
+			path = Growth;
+			sourceTree = "<group>";
+		};
+		A53737EF2C35A61A00DFD317 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A53737F02C35A62400DFD317 /* ARModel.swift */,
+				A54EDA2C2C3D59B9005E6857 /* ModelState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A53737F22C35A66C00DFD317 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A53737F32C35A67900DFD317 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A53737F52C35A69800DFD317 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A53737CD2C34130000DFD317 /* ContentView.swift */,
+				A53738342C380D9500DFD317 /* ARViewContainer.swift */,
+				A53738362C380DE000DFD317 /* ARView_Extension.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A54EDA322C403B83005E6857 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				A54EDA332C403BA2005E6857 /* OnBoardingView.swift */,
+				A54EDA352C403BC1005E6857 /* PageView.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A53737C72C34130000DFD317 /* Magical Garden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53737D62C34130200DFD317 /* Build configuration list for PBXNativeTarget "Magical Garden" */;
+			buildPhases = (
+				A53737C42C34130000DFD317 /* Sources */,
+				A53737C52C34130000DFD317 /* Frameworks */,
+				A53737C62C34130000DFD317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Magical Garden";
+			productName = "Magical Garden";
+			productReference = A53737C82C34130000DFD317 /* Magical Garden.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A53737C02C34130000DFD317 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A53737C72C34130000DFD317 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A53737C32C34130000DFD317 /* Build configuration list for PBXProject "Magical Garden" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A53737BF2C34130000DFD317;
+			productRefGroup = A53737C92C34130000DFD317 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A53737C72C34130000DFD317 /* Magical Garden */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A53737C62C34130000DFD317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53737E42C34366F00DFD317 /* Plant_03_Bloom.usdz in Resources */,
+				A53737EB2C34367A00DFD317 /* Plant_01_Growth.usdz in Resources */,
+				A53737E52C34366F00DFD317 /* Plant_01_Bloom.usdz in Resources */,
+				A53737E32C34366F00DFD317 /* Plant_02_Bloom.usdz in Resources */,
+				A53737D32C34130200DFD317 /* Preview Assets.xcassets in Resources */,
+				A53737E92C34367A00DFD317 /* Plant_02_Growth.usdz in Resources */,
+				A53737D02C34130200DFD317 /* Assets.xcassets in Resources */,
+				A53737EA2C34367A00DFD317 /* Plant_03_Growth.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A53737C42C34130000DFD317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53737F12C35A62400DFD317 /* ARModel.swift in Sources */,
+				A53738372C380DE000DFD317 /* ARView_Extension.swift in Sources */,
+				A54EDA342C403BA2005E6857 /* OnBoardingView.swift in Sources */,
+				A53737CE2C34130000DFD317 /* ContentView.swift in Sources */,
+				A53737F42C35A67900DFD317 /* ViewModel.swift in Sources */,
+				A53737CC2C34130000DFD317 /* AppDelegate.swift in Sources */,
+				A53738352C380D9500DFD317 /* ARViewContainer.swift in Sources */,
+				A54EDA362C403BC1005E6857 /* PageView.swift in Sources */,
+				A54EDA2D2C3D59B9005E6857 /* ModelState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A53737D42C34130200DFD317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A53737D52C34130200DFD317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A53737D72C34130200DFD317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Magical Garden/Preview Content\"";
+				DEVELOPMENT_TEAM = 5HSF5GHCRC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs access to your camera to enabled the augmented reality experience";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anto.Magical-Garden";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A53737D82C34130200DFD317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Magical Garden/Preview Content\"";
+				DEVELOPMENT_TEAM = 5HSF5GHCRC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs access to your camera to enabled the augmented reality experience";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anto.Magical-Garden";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A53737C32C34130000DFD317 /* Build configuration list for PBXProject "Magical Garden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53737D42C34130200DFD317 /* Debug */,
+				A53737D52C34130200DFD317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53737D62C34130200DFD317 /* Build configuration list for PBXNativeTarget "Magical Garden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53737D72C34130200DFD317 /* Debug */,
+				A53737D82C34130200DFD317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A53737C02C34130000DFD317 /* Project object */;
+}
